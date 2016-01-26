@@ -1,0 +1,12 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 23, 2015 - 10:41:44
+Django version 1.8.2, using settings 'evaluationPlatform.settings'
+Starting development server at http://0.0.0.0:9080/
+Quit the server with CONTROL-C.
+[23/Oct/2015 10:43:03]"GET /evaluate_online_offline_diff_input?doOldNewDiff=true HTTP/1.1" 200 2730
+[23/Oct/2015 10:43:06]"GET /evaluate_online_offline_diff_input?doOldNewDiff=true HTTP/1.1" 200 2730
+[23/Oct/2015 10:43:09]"GET /evaluate_online_offline_diff_input?doOldNewDiff=true HTTP/1.1" 200 2730
+[23/Oct/2015 11:05:42]"GET /evaluate_online_offline_diff_input?doOldNewDiff=true HTTP/1.1" 200 2730
+[23/Oct/2015 11:14:46]"GET /evaluate_online_offline_diff_input?doOldNewDiff=true HTTP/1.1" 200 2730

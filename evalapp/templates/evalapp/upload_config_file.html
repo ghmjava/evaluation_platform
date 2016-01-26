@@ -1,0 +1,17 @@
+<!DOCTYPE HTML> 
+<html lang="en"> 
+<head> 
+    <meta charset="utf-8" /> 
+    <title>{{ title }}</title> 
+</head> 
+<body> 
+    <a>配置文件上传</a> 
+    <form action="/up_file" method="post" enctype="multipart/form-data" accept-charset="utf-8"> 
+        {% csrf_token %} 
+        <input type="file" name="t_file" value="" />
+        <button>Submit</button> 
+
+        <input type="submit" value="文件查询" formaction="searchfile">
+    </form> 
+</body> 
+</html>
